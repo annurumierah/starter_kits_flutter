@@ -64,7 +64,7 @@ class _AppWrapperState extends State<AppWrapper> {
                 systemOverlayStyle: SystemUiOverlayStyle(
                     statusBarBrightness: Brightness.light, statusBarIconBrightness: Brightness.light)),
             colorScheme: ColorScheme.fromSwatch(
-                primaryColorDark: CustomColors.primaryColorDark, accentColor: CustomColors.colorAccent)),
+                 accentColor: CustomColors.colorAccent)),
         localizationsDelegates: const [
           S.delegate,
           GlobalMaterialLocalizations.delegate,
